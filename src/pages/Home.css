@@ -1,0 +1,33 @@
+
+
+.Home-search-wrap{
+    border: 1px solid black;
+    width: 340px;
+    height: 38px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.Home-search{
+    width: 270px;
+    border: 0px;
+    margin-left: 10px;
+    display: flex;
+    font-size: medium;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+  }
+
+.Home-search-btn{
+background-position: center center;
+background-size: 24px;
+background-repeat: no-repeat;
+width: 26px;
+height: 26px;
+margin-right: 10px;
+}

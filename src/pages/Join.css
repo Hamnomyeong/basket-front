@@ -1,0 +1,26 @@
+.Join-con{
+    background-color: black;
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Join-logo{
+    height: 50px;
+    margin-top: 50px;
+}
+
+.Join-Input{
+    display: flex;
+    color: white;
+    width: 330px;
+    height: 40px;
+    border: .75px solid white;
+    background-color: black;
+    padding: 15px;
+    margin-bottom: 30px;
+}
