@@ -1,8 +1,16 @@
 
+.Home-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 22px;
+    margin-left: 7%;
+    width: 100%;
+}
+
 
 .Home-search-wrap{
     border: 1px solid black;
-    width: 340px;
+    width: 85vw;
     height: 38px;
     margin: auto;
     justify-content: space-between;
@@ -27,7 +35,7 @@ input:focus {
 background-position: center center;
 background-size: 24px;
 background-repeat: no-repeat;
-width: 26px;
-height: 26px;
-margin-right: 10px;
+width: 23px;
+height: 23px;
+margin-right: 13px;
 }

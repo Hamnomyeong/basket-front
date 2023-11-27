@@ -26,6 +26,25 @@ background: none;
 border: 0px solid;
 }
 
+.Nav-cart{
+    background: none;
+    border: 0px solid;
+    display: flex;
+}
+
+.Nav-cart-cnt{
+    width: 17px;
+    height: 17px;
+    font-size: 12px;
+    margin-left: -5px;
+    margin-top: -7px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 0, 0, 0.9); 
+    border-radius: 50%;
+    color: white;
+}
 
 .Nav-menu img{
     height: 24px;
