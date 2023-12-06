@@ -1,13 +1,29 @@
-.Item-con {
-    width: 88%;
+.OftenItem-con {
+    width: 100%;
     height: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    overflow-x: auto;
     gap: 0px 7px;
     margin: auto;
+    max-width: 100vh;
+    white-space: nowrap;
+    scrollbar-width: none; /* Firefox에 대한 설정 */
+    -ms-overflow-style: none; /* Internet Explorer 및 Edge에 대한 설정 */
 }
 
-.Item {
+.OftenItem-con::-webkit-scrollbar {
+    display: none; /* WebKit 기반 브라우저에 대한 설정 (Chrome, Safari 등) */
+}
+
+
+
+.OftenItem-item {
+    flex: 0 0 auto;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.OftenItem {
     position: relative; 
     flex: 0 0 calc(33.33%);
     box-sizing: border-box;
@@ -15,26 +31,26 @@
     width: 100%;
 }
 
-.ItemImg {
+.OftenItemImg {
     width: 100%;
     position: relative; 
 }
 
 
-.Item-wrap {
+.OftenItem-wrap {
     position: relative; 
     width: 100%;
     flex-direction: column;
 }
 
-.Item-Icon {
+.OftenItem-Icon {
     width: 100%;
     height: 25px;
     display: flex;
     justify-content: flex-end;
 }
 
-.Item-btn-wrap {
+.OftenItem-btn-wrap {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -45,7 +61,7 @@
     width: 100%;
 }
 
-.Item-cold {
+.OftenItem-cold {
     font-size: 20px;
     width: 30px;
     height: 30px;
@@ -58,7 +74,7 @@
     left: 0;
 }
 
-.Item-cart-cntCon {
+.OftenItem-cart-cntCon {
     display: flex;
     justify-content: flex-end;
     margin-right: 5px;
@@ -66,7 +82,7 @@
     height: 30px;
 }
 
-.Item-cart-cnt {
+.OftenItem-cart-cnt {
     display: flex;
     width: 30px;
     height: 30px;
@@ -77,7 +93,7 @@
     justify-content: center;
 }
 
-.Item-cart-updown {
+.OftenItem-cart-updown {
     display: flex;
     width: 30px;
     height: 30px;
@@ -88,30 +104,30 @@
     justify-content: center;
 }
 
-.Item-title {
+.OftenItem-title {
     height: 7px;
     margin-top: -20px;
     font-size: small;
 }
 
-.Item-Info {
+.OftenItem-Info {
     width: 100%;
     display: flex;
     margin-top: -5px;
 }
 
-.Item-title-con {
+.OftenItem-title-con {
     display: flex;
     flex-direction: column;
 }
 
-.Item-salePrice {
+.OftenItem-salePrice {
     font-weight: bold;
     font-size: small;
     margin-left: 5px;
 }
 
-.Item-sale {
+.OftenItem-sale {
     color: red;
     font-size: small;
     font-weight: bold;

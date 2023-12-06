@@ -14,31 +14,31 @@ const Navbar = () => {
   const navigate = useNavigate ();
 
     return (
-      <>
+      <div className='Nav-conbox'>
     <div className='Nav-con'>
 
-      <button class="Nav-menu" type="button"  onClick={()=> {navigate('/Category')}}>
+      <button className="Nav-menu" type="button"  onClick={()=> {navigate('/Category')}}>
       <img src={process.env.PUBLIC_URL + '/img/category-w.svg'} />
       </button>
   
-      <button class="Nav-menu" type="button"  onClick={()=> {navigate('/Search')}}>
+      <button className="Nav-menu" type="button"  onClick={()=> {navigate('/Search')}}>
       <img src={process.env.PUBLIC_URL + '/img/search-w.svg'} />
       </button>
      
-     <div class="Nav-menu" >
-      <button class="Nav-cart" type="button"  onClick={()=> {navigate('/Cart')}}>
+     <div className="Nav-menu" >
+      <button className="Nav-cart" type="button"  onClick={()=> {navigate('/Cart')}}>
       <img src={process.env.PUBLIC_URL + '/img/cart-w.svg'} />
       <p className="Nav-cart-cnt">{totalCartCount}</p>
       </button>
       </div>
    
-      <button class="Nav-menu" type="button"  onClick={()=> {navigate('/My')}}>
+      <button className="Nav-menu" type="button"  onClick={()=> {navigate('/Mypage')}}>
       <img src={process.env.PUBLIC_URL + '/img/my-w.svg'} />
       </button>
 
   </div>
       
-      </>
+      </div>
   );
 }
 

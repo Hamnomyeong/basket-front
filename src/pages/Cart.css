@@ -1,0 +1,125 @@
+
+.Cart-conbox{
+    height: 100vh;
+}
+
+.Cart-con{
+    display: flex;
+    margin: 6%;
+    width: 100%;
+}
+
+.Cart-left-wrap {
+    display: flex;
+    width: 120px;
+    /* background-color: aqua; */
+    flex-direction: column;
+
+
+}
+
+.Cart-left-checkbox-con{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.Cart-left-delivery{
+background-color: black;
+color: white;
+padding: 5px 14px;
+height: 32px;
+border-radius: 5px;
+margin-left: 10px;
+}
+
+
+.Cart-right-wrap{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6%;
+
+}
+
+
+.Cart-right-date{
+color: red;
+font-weight: bold;
+}
+
+
+.Cart-right-infoBox{
+display: flex;
+align-items: center;
+}
+
+.Cart-right-price{
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: large;
+}
+
+
+.Cart-left-ItemImg{
+ margin-top: 8px;
+    width: 120px;
+    height: 120px;
+    background-color: black;
+}
+
+.Cart-ItemList-con{
+    margin: 6%;
+}
+
+
+.Cart-subtitle{
+font-size: larger;
+font-weight: bold;
+}
+
+
+
+
+
+.Cart-buy-con{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    max-width: 500px;
+    bottom: 0;
+}
+
+
+.Cart-price {
+    border: 1.5px solid black;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 0px;
+    font-size: large;
+
+}
+
+
+.Cart-buyBtn{
+    background-color: black;
+    border: 1.5px solid black;
+    color: white;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 0px;
+    font-size: larger;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.Cart-div{
+width: 100%;
+height: 8px;
+background-color: lightgray;
+}

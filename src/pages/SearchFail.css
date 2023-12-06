@@ -1,0 +1,111 @@
+.SearchFail-con{
+    background-color: rgb(220, 220, 220);
+    max-width: 100%;
+    height: 8%;
+    min-height: 80px;
+    margin: auto;
+    margin-bottom: 2%;
+    align-items: center;
+    display: flex;
+}
+
+
+
+.SearchFail-box{
+    background-color: white;
+    height: 50%;
+    width: 88%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+    
+
+
+.SearchFail{
+    width: 85%;
+    border: 0px;
+    margin-left: 3%;
+    display: flex;
+    font-size: 17px;
+    /* border: 1px solid red; */
+}
+
+input:focus {
+    outline: none;
+    border: none;
+  }
+
+
+.SearchFail-btn{
+background-position: center center;
+background-repeat: no-repeat;
+margin-right: 4%;
+}
+
+
+
+
+.SearchFail-Wrap{
+    max-width: 100vw;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+}
+
+
+
+.SearchFail-contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 20%;
+}
+
+.SearchFail-img{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.SearchFail-result{
+    display: flex;
+    font-size: medium;
+    font-weight: 600;
+    margin-top: 5%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+
+.SearchFail-subtitle{
+    display: flex;
+    font-size: large;
+    font-weight: 600;
+    margin-top: 10%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.SeachFail-suggest{
+    height: 2.5em;
+    line-height: 2.5em;
+    padding: 0 8%;
+    background-color: black;
+    margin-top: 2%;
+    border-radius: 1.25em;
+    color: white;
+    display: inline-block; 
+    justify-content: center;
+    align-items: center;
+}

@@ -1,25 +1,58 @@
+import { navigate, useNavigate } from 'react-router-dom';
 import './Join.css';
 import React from 'react'
 
 const Join= () => {
-    
+  const navigate = useNavigate ();
 
     return (
       <div className='Join-con'>
-        <p className='Join-txt'>매일 신선함을 가져다 드릴게요!</p>
-        <img className='Join-logo' src={process.env.PUBLIC_URL + '/img/MainLogo.svg'}/>
+      <div className='Join-wrap'>
+        <div className='Join-welcome' >
+          <p className='Join-txt'>매일 신선함을 가져다 드릴게요!</p>
+          <img className='Join-logo' src={process.env.PUBLIC_URL + '/img/MainLogo.svg'}/>
+        </div>
 
-        <p className='Join-des'>성함</p>
-        <input className='Join-Input' type='text' id='name' />
+        <div className='Join-Input-wrap'>
+          <p className='Join-des'>성함</p>
+          <input className='Join-Input' type='text' id='name' />
+        </div>
 
-        <p className='Join-des'>상호명</p>
-        <input className='Join-Input' type='text' id='name' />
 
-        <p className='Join-des'>사업자등록번호</p>
-        <input className='Join-Input' type='text' id='name' />
+        <div className='Join-Input-wrap'>
+          <p className='Join-des'>상호명</p>
+          <input className='Join-Input' type='text' id='name' />
+        </div>
 
-        <p className='Join-des'>이메일</p>
-        <input className='Join-Input' type='text' id='name' />
+        <div className='Join-Input-wrap'>
+          <p className='Join-des'>휴대폰 번호</p>
+          <div className='Join-mail-con'>
+          <input className='Join-Input' type='text' id='name'  placeholder='-없이 숫자만 입력해주세요'/>
+          <button className='Join-mail-submit' type='submit' id='name' > 인증 </button >
+          </div>
+        </div>
+
+
+        <div className='Join-Input-wrap'>
+          <p className='Join-des'>이메일</p>
+          <div className='Join-mail-con'>
+          <input className='Join-Input' type='text' id='name' />
+          <button className='Join-mail-submit' type='submit' id='name' > 인증 </button >
+          </div>
+        </div>
+
+        <div className='Join-Input-wrap'>
+          <p className='Join-des'>비밀번호</p>
+          <input className='Join-Input' type='text' id='name'/>
+        </div>
+
+        <div className='Join-Input-wrap'>
+          <p className='Join-des'>비밀번호 확인</p>
+          <input className='Join-Input' type='text' id='name' />
+        </div>
+
+        <div className='Join-next' onClick={()=> {navigate('/Join2')}}> 다음 </div>
+      </div>
       </div>
   );
 }
