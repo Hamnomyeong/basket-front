@@ -5,7 +5,6 @@ import './Home.css';
 import Item from "../components/Item";
 import React from 'react'
 import CategoryCom from "../components/CategoryCom";
-import CSbtn from "../components/CSbtn";
 
 
 const Home = () => {

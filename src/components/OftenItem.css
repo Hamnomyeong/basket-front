@@ -29,11 +29,14 @@
     box-sizing: border-box;
     padding-bottom: 4%;
     width: 100%;
+
 }
 
 .OftenItemImg {
     width: 100%;
+    height: auto;
     position: relative; 
+
 }
 
 

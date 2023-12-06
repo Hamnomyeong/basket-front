@@ -1,5 +1,5 @@
 
-.JoinDone-con{
+.JoinSubmit-con{
     display: flex;
     align-items: center;
     height: 100vh;
@@ -10,7 +10,7 @@
 }
 
 
-.JoinDone-wrap{
+.JoinSubmit-wrap{
     background-color: black;
     width: 100%;
     height: 100vh;
@@ -21,33 +21,33 @@
 }
 
 
-.JoinDone-welcome{
+.JoinSubmit-welcome{
     width: 100%;
 
 }
 
-.JoinDone-logo{
+.JoinSubmit-logo{
     height: 70px;
     display: flex;
     align-items: center;
-    margin: 0 auto 48px auto;
+    margin: 0 auto 40px auto;
 }
 
-.JoinDone-graphic{
+.JoinSubmit-graphic{
     width: 64%;
     display: flex;
     align-items: center;
     margin:  0 auto;
+    margin-bottom: 52px;
 }
 
 
-.JoinDone-des{
+.JoinSubmit-des{
     font-size: larger;
     color: white;
     display: inline-block;
     width: auto;
-    margin-bottom: 30px;
-    margin-top: 50px;
+    margin-bottom: 12px;
     white-space: nowrap;
     
 
@@ -55,7 +55,7 @@
 
 
 
-.JoinDone-login{
+.JoinSubmit-Home{
     display: flex;
     color:  white;
     font-size: larger;
@@ -67,5 +67,5 @@
     border: .75px solid  gray;
     background-color:  gray;
     padding: 15px;
-    margin-top: 10px;
+    margin-top: 30px;
 }

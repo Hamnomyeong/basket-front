@@ -51,7 +51,7 @@ const Join= () => {
           <input className='Join-Input' type='text' id='name' />
         </div>
 
-        <div className='Join-next' onClick={()=> {navigate('/Join2')}}> 다음 </div>
+        <div className='Join-next' onClick={()=> {navigate('/Join2')}}> 다 음 </div>
       </div>
       </div>
   );
