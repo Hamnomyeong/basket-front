@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import './Home.css';
 import Item from "../components/Item";
 import React from 'react'
-import Category from "../components/Category";
+import CategoryCom from "../components/CategoryCom";
 
 
 const Home = () => {
@@ -63,7 +63,7 @@ const Home = () => {
       <>
     <div className="Home-con">
      <Banner/>
-     <Category />
+     <CategoryCom />
      <div className="Home-search-con">
           <div className="Home-search-wrap">
             <input className="Home-search" type="text" name="search" placeholder="무엇을 찾아 드릴까요?" onChange={changeHandler} />
@@ -73,7 +73,7 @@ const Home = () => {
      <p className="Home-subtitle">최순영님을 위한 할인 상품! 📣</p>
      <Item onCartCountChange={onCartCountChange} itemImages={itemImages} handleCartClick={handleCartClick} newCartCounts={newCartCounts}/>
 
-
+     {/* <CSbtn />  */}
 
      <Navbar totalCartCount={totalCartCount}/>
     </div>

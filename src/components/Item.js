@@ -59,24 +59,26 @@ const Item = ({handleCartClick,  itemImages, newCartCounts }) => {
                 </div> */}
 
              
+                  <div className="Item-cold">❄</div>
                 <div className="Item-btn-wrap">
-                <div className="Item-cold">❄</div>
-                {/* {newCartCounts[i] > 0 && ( */}
-                  <div className="Item-cart-cntCon">
-                <p className="Item-cart-updown">-</p>  
-                <p className="Item-cart-cnt">1</p>
-                <p className="Item-cart-updown" onClick={() => handleCartClick(i)} >+</p>  
+                  {/* {newCartCounts[i] > 0 && ( */}
+                    <div className="Item-cart-cntCon">
+                  <p className="Item-cart-updown">-</p>  
+                  <p className="Item-cart-cnt">1</p>
+                  <p className="Item-cart-updown" onClick={() => handleCartClick(i)} >+</p>  
                 </div>
                 {/* )} */}
                 </div>
                
               </div>
               </div>
+              <div className="Item-title-con">
            <p className="Item-title"> 피카피카 1kg </p>
             <div className="Item-Info">
               <p className="Item-sale">{item.price}</p>
               <p className="Item-salePrice">{item.salePrice}원</p>
             </div>
+          </div>
           </div>
         ))}
 

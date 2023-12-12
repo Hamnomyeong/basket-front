@@ -1,0 +1,71 @@
+
+.JoinDone-con{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+    width: 100%;
+    padding-bottom: min(30%); 
+    padding-top: min(30%); 
+}
+
+
+.JoinDone-wrap{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.JoinDone-welcome{
+    width: 100%;
+
+}
+
+.JoinDone-logo{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto 48px auto;
+}
+
+.JoinDone-graphic{
+    width: 64%;
+    display: flex;
+    align-items: center;
+    margin:  0 auto;
+}
+
+
+.JoinDone-des{
+    font-size: larger;
+    color: white;
+    display: inline-block;
+    width: auto;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    white-space: nowrap;
+    
+
+}
+
+
+
+.JoinDone-login{
+    display: flex;
+    color:  white;
+    font-size: larger;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 48px;
+    border: .75px solid  gray;
+    background-color:  gray;
+    padding: 15px;
+    margin-top: 10px;
+}

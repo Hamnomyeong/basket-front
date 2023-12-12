@@ -1,0 +1,83 @@
+.Footer-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-top: 1px solid rgb(221, 221, 221);
+    background-color: #43465610;
+    margin-bottom: 0px;
+    margin-top: 28px;
+  }
+  
+  .Footer-top{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    margin-left: 6%;
+  }
+  
+  .Footer-logo{
+    width: 90px;
+    
+  }
+
+  .Footer-info-wrap{
+    display: flex;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 72px;
+    margin-right: 6%;
+  }
+  
+  .Footer-info-link{
+    margin-right: 14px;
+    margin-top: 6px;
+    font-size: 12px;
+    white-space: nowrap; 
+  }
+
+  .Footer-biz-wrap{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+
+  .Footer-biz-btn{
+    font-weight: bold;
+    color: gray;
+    margin-left: 4px;
+  }
+  
+  .Footer-info{
+    margin-left: 6%;
+    margin-right: 6%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    margin-top: 10px;
+    color: gray;
+  }
+  
+  .Footer-info div {
+    margin-top: 8px;
+    color: gray;
+    font-size: 11px;
+  }
+
+
+  .Footer-CR-des{
+    margin-top: 12px;
+    font-size: 10px;
+  }
+
+
+  .Footer-CR{
+    font-size: 11px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    margin-top: 2px;
+  }

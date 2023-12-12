@@ -1,3 +1,7 @@
+.Home-con{
+width: 100%;
+}
+
 
 .Home-subtitle{
     font-size: 20px;
@@ -9,8 +13,8 @@
 
 
 .Home-search-wrap{
-    border: 1px solid black;
-    width: 85vw;
+    border: 0.9px solid rgb(0, 0, 0);
+    width: 88%;
     height: 38px;
     margin: auto;
     justify-content: space-between;

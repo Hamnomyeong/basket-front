@@ -1,0 +1,27 @@
+.CSbtn-con{
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+    justify-content: flex-end;
+    padding-right: 4%;
+  
+}
+
+.CSbtn {
+    position: fixed;
+    bottom: 80px;
+    background-color: #000000;
+    color: #fff;
+    padding: 18px 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+.CSbtn-icon{
+    display:inline-block;
+    width:32px;
+    font-size: medium;
+    text-align:center;
+ 
+}
