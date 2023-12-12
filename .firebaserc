@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "basket-9dea8",
+    "basket": "basket-9dea8",
+    "Basket": "basket-9dea8"
+  },
+  "targets": {},
+  "etags": {}
+}

@@ -1,9 +1,16 @@
 import { navigate, useNavigate } from 'react-router-dom';
 import './Join.css';
-import React from 'react'
+import React, { useState } from 'react'
 
 const Join= () => {
   const navigate = useNavigate ();
+  const [email, setEmail] = useState('');
+
+  const handleNextClick = () => {
+
+    navigate(`/Join2?email=${encodeURIComponent(email)}`);
+  };
+
 
     return (
       <div className='Join-con'>
@@ -36,7 +43,7 @@ const Join= () => {
         <div className='Join-Input-wrap'>
           <p className='Join-des'>이메일</p>
           <div className='Join-mail-con'>
-          <input className='Join-Input' type='text' id='name' />
+          <input className='Join-Input' type='submit' id='email' value={email}  onClick={handleNextClick}/>
           <button className='Join-mail-submit' type='submit' id='name' > 인증 </button >
           </div>
         </div>
@@ -51,7 +58,7 @@ const Join= () => {
           <input className='Join-Input' type='text' id='name' />
         </div>
 
-        <div className='Join-next' onClick={()=> {navigate('/Join2')}}> 다 음 </div>
+        <div className='Join-next' onClick={()=> {navigate('/Join2')}} > 다 음 </div>
       </div>
       </div>
   );

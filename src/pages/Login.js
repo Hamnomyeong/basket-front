@@ -2,9 +2,12 @@ import { navigate, useNavigate } from 'react-router-dom';
 import './Login.css';
 import React from 'react'
 
+
 const Login= () => {
     
   const navigate = useNavigate();
+
+
 
 
     return (
@@ -15,7 +18,9 @@ const Login= () => {
         <div className='Login'>
             <input className='Login-id' type='text' id='phone' placeholder='전화번호를 입력하세요'/>
             <input className='Login-pw' type='text' id='email' placeholder='비밀번호를 입력하세요'/>
-            <button className='Login-submit' type='submit' id='submit' > 로그인 </button>
+            <button className='Login-submit' type='submit' id='submit' 
+            
+            > 로그인 </button>
             <button className='Login-join' type='submit' id='join' onClick={()=>{navigate ('/Join')}} > 간편 회원가입 </button>
         </div>
 
